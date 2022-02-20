@@ -1,0 +1,53 @@
+
+*::after
+*::before{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header, footer{
+    height: 98px;
+    border: 1px solid black;
+    clear: both;
+}
+
+.clearfix ::before,
+.clearfix ::after{
+    content: '';
+    display: table;
+    
+}
+.one, .two, .three, .four{
+    display: block;
+    float: left;
+}
+/*block width 771px */
+
+.one{
+    height: 300px;
+    width: 19.6%;
+    border: 1px solid black;
+}
+
+
+ .two{
+    height: 300px;
+    width: 41.2%;
+    border: 1px solid black;
+ }
+ /*39.33% = 303.227px/7.71   19.666=151.6135    */
+
+ .three{
+     height: 300px;
+     width: 19.6%;
+     border: 1px solid black;
+ }
+
+ .four{
+    height: 300px;
+    width: 19.6%;
+    border: 1px solid black;
+}

@@ -1,0 +1,39 @@
+
+*::after
+*::before{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header, footer{
+    height: 100px;
+    border: 1px solid black;
+    clear: both;
+}
+
+.clearfix ::before,
+.clearfix ::after{
+    content: '';
+    display: table;
+    
+}
+.three, .two{
+    display: block;
+    float: left;
+}
+
+.three{
+    height: 150px;
+    width: 33.33%;
+    border: 1px solid black;  
+}
+
+
+ .two{
+    height: 190px;
+    width: 49.99%;
+    border: 1px solid black;
+}
